@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Unity Project\\tap tap dashGD511\\tap tap dash GD511\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity project\\tap tap dashgd511\\tap tap dash gd511\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity project\\tap tap dashgd511\\tap tap dash gd511\\assets\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "E:\\Unity Project\\tap tap dashGD511\\tap tap dash GD511\\Assets\\scripts\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMove.cs",
+              "ToolTip": "E:\\Unity Project\\tap tap dashGD511\\tap tap dash GD511\\Assets\\scripts\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T15:44:35.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraControl.cs",
+              "DocumentMoniker": "E:\\Unity Project\\tap tap dashGD511\\tap tap dash GD511\\Assets\\scripts\\CameraControl.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CameraControl.cs",
+              "ToolTip": "E:\\Unity Project\\tap tap dashGD511\\tap tap dash GD511\\Assets\\scripts\\CameraControl.cs",
+              "RelativeToolTip": "Assets\\scripts\\CameraControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T15:22:14.307Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
