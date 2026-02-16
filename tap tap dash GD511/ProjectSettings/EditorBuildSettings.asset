@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/POLYGON - FPS free/scene/demo_map.unity
-    guid: 19fab4276374c3b408b0afe0a064b529
+    path: Assets/Scenes/Menu.unity
+    guid: 5e9db2c886960a0479ed9c209d428e4b
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
