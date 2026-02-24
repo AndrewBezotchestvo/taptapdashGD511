@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -8,11 +9,17 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private float _gravityScale = 10;
     [SerializeField] private float _jumpForce = 10;
 
+    [SerializeField] private float _minSpeed = 0.1f;
+    [SerializeField] private float _maxSpeed = 10f;
+    private float _current_speed;
+    private Vector3 _previosPosition;
+
     private bool _direction;
     private bool _isGrounded;
     //_movement - направление движение
     //_rb - компонент для работы с физикой
     //_playerSpeed - скорость персонажа
+
 
     void Start()
     {
@@ -24,6 +31,16 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(_current_speed);
+
+        if (transform.position.x + transform.position.z > 5)
+        {
+            if (_current_speed > _maxSpeed || _current_speed < _minSpeed)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //перезагрузка сцены
+            }
+        }
+
         //_rb.AddForce(transform.forward * _playerSpeed);
         if (_direction == true)
         {
@@ -50,6 +67,9 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
+        _current_speed = (transform.position - _previosPosition).magnitude / Time.fixedDeltaTime;
+        _previosPosition = transform.position;
+
         _rb.MovePosition(transform.position + _movement * 0.01f);
 
         if (_isGrounded == false)

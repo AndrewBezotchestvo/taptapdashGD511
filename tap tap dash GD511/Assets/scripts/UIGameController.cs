@@ -5,11 +5,10 @@ using UnityEngine.UI;
 public class UIGameController : MonoBehaviour
 {
     [SerializeField] private GameObject _pausePanel;
-
     [SerializeField] private Text score;
     [SerializeField] private Text record;
-
     [SerializeField] private Transform _player;
+    [SerializeField] private AudioSource _music;
 
     private float _scoreValue;
     private float _recordValue;
@@ -75,4 +74,15 @@ public class UIGameController : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void SwitchSound(bool state)
+    {
+        if (state)
+        {
+            _music.volume = 0.5f;
+        }
+        else
+        {
+            _music.volume = 0f;
+        }
+    }
 }
